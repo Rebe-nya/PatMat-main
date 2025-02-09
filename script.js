@@ -19,5 +19,5 @@ while (i<10) {
 }
 figurky.innerHTML = kodFigurek; // vloží kód řady obrázků, kterou požadujeme vykreslit
 pocetPat.innerText = i;         // vypíše počet vykreslených figurek Pata (všech deset)
-pocetMat.innerText = 0;         // vypíše počet vykreslenách figurek Mata (žádný)
+pocetMat.innerText = i;
 
